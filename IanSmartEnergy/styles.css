@@ -180,15 +180,6 @@ dialog::backdrop{background:rgba(0,0,0,.35);backdrop-filter:blur(2px)}
 .seemore {
 	width: fit-content;
 }
-#btnToggle {
-	    padding: .45rem .7rem;
-		border: 1px solid var(--border);
-		border-radius: 999px;
-		font-size: .85rem;
-		color: var(--muted);
-		width: fit-content;
-		background: none;
-}
 
 /* End FAQ */
 
@@ -213,15 +204,5 @@ iframe {
  .box-packages.expandedpack {
   height: auto;         /* expand */
 }
-
-#btnTogglePackages {
-	    padding: .45rem .7rem;
-		border: 1px solid var(--border);
-		border-radius: 999px;
-		font-size: .85rem;
-		color: var(--muted);
-		width: fit-content;
-		background: none;
-}
-
 /* End Packages */
+
