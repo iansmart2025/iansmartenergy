@@ -92,3 +92,21 @@ btn.addEventListener('click', () => {
     btn.textContent = "See more";
   }
 });
+
+
+const boxpack = document.getElementById('box-packagesID');
+const btnpack = document.getElementById('btnTogglePackages');
+
+let expandedpack = false;
+
+btnpack.addEventListener('click', () => {
+  expandedpack = !expandedpack;
+
+  if(expandedpack) {
+    boxpack.classList.add('expandedpack');
+    btnpack.textContent = "See less packages";
+  } else {
+    boxpack.classList.remove('expandedpack');
+    btnpack.textContent = "See more packages";
+  }
+});
