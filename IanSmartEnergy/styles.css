@@ -192,11 +192,13 @@ dialog::backdrop{background:rgba(0,0,0,.35);backdrop-filter:blur(2px)}
 
 /* End FAQ */
 
-video {
-	object-fit: cover;
-    padding-top: 15px;
+iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    border: 0;
 }
 
 /* Start Packages */
